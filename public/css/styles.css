@@ -4,11 +4,6 @@
 -Links
 -Buttons
 -Forms
-
-
- ------------ Colors ------------------
-
------------- Fonts --------------------
 */
 
 body {
@@ -36,7 +31,6 @@ input {
     border-radius: 5px;
     padding: 7px;
     background-repeat: no-repeat;
-    /*background-position: 8px 9px;*/
     display: block;
     margin-bottom: 10px;
 }
@@ -52,20 +46,3 @@ input:focus, input:hover {
   padding-top: 1.3em;
  }
 
-/* -------- Footer ------------*/
-
-.sticky-footer{
-  background: #404040;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  height: 50%;
-  border-top: 1px solid #a42820;
-}
-
-.sticky-footer ul li{
-  list-style: none;
-  text-align: center;
-  color: #d94338;
-  padding-top: 1em;
-}
