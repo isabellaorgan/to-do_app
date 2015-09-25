@@ -1,0 +1,19 @@
+{
+  "name": "code_chal_to-do",
+  "version": "1.0.0",
+  "description": "Make a To Do List app for Code Challenge for Code Fellows Full Stack DA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabellaorgan/to-do_app.git"
+  },
+  "author": "Isabella Organ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabellaorgan/to-do_app/issues"
+  },
+  "homepage": "https://github.com/isabellaorgan/to-do_app#readme"
+}
