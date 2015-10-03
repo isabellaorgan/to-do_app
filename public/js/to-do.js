@@ -2,11 +2,11 @@
 
 $(document).ready(function () {
 
-  var counter = 1;
+  var counter = 0;
 
   function enter_task() {
     var text = $('#enter_task').val();
-    $('#todo_list').append('<li><span>' + text + ' </span><input type="submit" id="edit' + counter + '" value="Edit">' + '<input type="submit" class="done" id="delete' + counter + '" value="Delete">' + '</li>');
+    $('#todo_list').append('<li><span>' + text + '</span><input type="submit" id="edit' + counter + '" value="Edit">' + '<input type="submit" class="done" id="delete' + counter + '" value="Delete">' + '</li>');
     $('#edit' + counter).click(function () {
       $(this).prev().attr('contenteditable', 'true');
       $(this).prev().focus();

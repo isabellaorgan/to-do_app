@@ -14,9 +14,10 @@ body {
 
 h1 {
   font-family: 'Kalam', cursive;
+  font-size: 48pt;
   color: #00000;
   text-align: left;
-  padding-top: 1em;
+  /*padding-top: 1em;*/
 }
 
 input {
@@ -35,9 +36,16 @@ input:focus, input:hover {
     border: 1px solid #708090;
 }
 
- #unorderedList li{
-  list-style-type: circle;
-  font-size: 1.2em;
-  padding-top: 1.3em;
- }
+.tdl {
+  position:fixed;
+  top: 1px;
+  left: 1px;
+}
+
+.tdh {
+  position:relative;
+  left: 400px;
+}
+
+
 
