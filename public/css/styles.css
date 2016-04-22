@@ -1,9 +1,7 @@
 /*Table of Contents
--body
--Type
--Links
--Buttons
+-Body
 -Forms
+-Table
 */
 
 body {
@@ -46,6 +44,3 @@ input:focus, input:hover {
   position:relative;
   left: 400px;
 }
-
-
-
